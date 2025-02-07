@@ -22,6 +22,7 @@ int main() { //Função principal que compila o código
     printf("Digite o segundo número: ");
     scanf("%f", &num2);
 
+    //Estrutura de condição
     if (escolha == 1) { //Soma  
         printf("%.2f + %.2f = %.2f", num1, num2, num1 + num2);
     }
